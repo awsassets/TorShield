@@ -110,6 +110,8 @@ namespace TorShield
             {
                 if (RuntimeInformation.IsOSPlatform(OSPlatform.Windows))
                 {
+                    RunCmd("netsh winhttp reset proxy");
+
                     RegistryKey registry = Registry.CurrentUser.OpenSubKey("Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings", true);
                     registry.SetValue("ProxyEnable", 0);
                     registry.SetValue("ProxyServer", "");
