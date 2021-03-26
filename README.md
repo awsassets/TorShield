@@ -4,7 +4,7 @@
 [Useful links](#links)<br>
 <br>
 <b name="installation">How to install</b><br>
-<a href='https://www.torproject.org/download/'>[1] Download TOR browser</a>
+<a href='https://www.torproject.org/download/'>[1] Download TOR browser</a><br>
 <img src='step_one.png'><img src='tor-binary.png'>
 <p>[2] Specify the TOR binary path to TorShield</p>
 <img src='runtime.png'>
