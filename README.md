@@ -5,7 +5,7 @@
 <br>
 <b name="installation">How to install</b><br>
 <a href='https://www.torproject.org/download/'>[1] Download TOR browser</a><br>
-<img src='step_one.png'><img src='tor-binary.png'>
+<img src='step_one.png'><img src='tor_binary.png'>
 <p>[2] Specify the TOR binary path to TorShield</p>
 <img src='runtime.png'>
 <p>[3] Let your IP address be changed</p>
